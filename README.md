@@ -2,7 +2,7 @@
 
 A working wholesale sales CRM that turns order history into a clear daily follow-up queue.
 
-**[Open the live demo](https://reorder-desk-simran.theancientwitness.chatgpt.site)**
+**[Open the live demo](https://reorder-desk.pages.dev)**
 
 ![Reorder Desk account follow-up workspace](docs/screenshot.png)
 
@@ -60,6 +60,8 @@ npm run check
 ```
 
 Tests cover calendar boundaries, cadence calculation, sparse histories, follow-up scheduling, new-order resets, CSV round trips, validation, and export escaping.
+
+The public demo is hosted on Cloudflare Pages as `reorder-desk`. Deploy the contents of `dist/` using Pages Direct Upload; no build step is required.
 
 ## Import format
 
