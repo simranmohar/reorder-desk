@@ -1,0 +1,16 @@
+{
+  "name": "reorder-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A wholesale sales follow-up workspace with explainable reorder signals and a local demo dataset.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test",
+    "check": "node --check dist/app.js && node --check dist/lib/domain.js && node --check dist/lib/csv.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
